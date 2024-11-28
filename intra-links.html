@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper</title>
+    <style>
+        header{
+            display: flex;
+            justify-content:space-between;
+            padding:15px;
+            font-family:arial;
+            background-color:black;
+            color:white;
+            font-size:20px;
+
+        }
+        .brand-titel{
+            font-size:20px;
+            font-weight:bold;
+        }
+        nav sapn{
+            margin-right: 20px;
+        }
+        section{
+            display:grid;
+            grid-template-columns:3fr 9fr;
+        }
+        main{
+            height:500px;
+            overflow: auto;
+        }
+        ul{
+            list-style:none;
+            margin-left:-30px;
+        }
+        li{
+            font-family:arial;
+            margin-bottom:20px;
+            background-color:black;
+            color:white;
+            width:140px;
+            border-radius:5px;
+            padding: 5px;
+        }
+        li:hover{
+            background-color:maroon;
+            color: black;
+        }
+       nav a{
+            text-decoration:none;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand-title">Shopper.</div>
+        <nav>
+            <sapn><a href="#home">Home</a></sapn>
+            <sapn><a href="#fashion">Fashion</a></sapn>
+            <sapn><a href="#electronics">Electronics</a></sapn>
+            <sapn><a href="#contact">Contact</a></sapn>
+        </nav>
+        <div>
+            <sapn>signin</sapn>
+        </div>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#men">Men's Fashion</a></li>
+                <li><a href="#kid">Kid's Fashion</a></li>
+                <li><a href="#women">Women's Fashion</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1 id="home">Home</h1>
+            <p>Lorem ipsum dolor <span><b>Special Offer 30% Off on <a href="#iphone">iphone 15x</a></b></span>sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <figure id="iphone">
+                <img src="images/Iphone Black.jpg" width="100" height="200">
+                <figcaption>Iphone 15 pro</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <h1 id="women">Women's fashion</h1>
+            <img src="images/Woman-Fashion.jpg" width="200" height="300">
+            <div>
+                <a href="#home">Back To Top</a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <h1 id="men">Men's Fashion</h1>
+            <img src="images/Men-Fashion.jpg" width="200" height="300">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <figure id="Iphone">
+                <img src="images/Iphone Black.jpg" width="100" height="200">
+                <figcaption>Iphone 15 Pro Max</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, error minus. Corporis corrupti deserunt, fugit facere modi repellendus sint debitis ratione quae sunt tempore saepe quisquam atque harum, voluptatibus sequi.</p>
+            <h1 id="kid">Kid's Fashion</h1>
+            <img src="images/Kids-Fashion.jpg" width="200" height="300">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero esse velit amet ipsa consequuntur quaerat ut accusantium, nobis reiciendis. Velit sequi consectetur inventore dolor consequatur quaerat ratione doloremque unde voluptatum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus animi quisquam consectetur id nam labore, nihil sunt natus quae voluptate architecto, minima sed iure voluptas quam velit facilis at?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla aspernatur aliquid aut repudiandae ratione hic dolorem, harum molestias voluptatibus voluptates? Eligendi repellat consectetur ipsa eos explicabo dicta est et ipsum!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vel nam hic dignissimos itaque nostrum soluta cum quisquam sequi fugiat officiis ea maxime minima ipsum, natus mollitia amet minus explicabo.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laudantium facere, nulla maiores similique minima repudiandae vero voluptatum repellat praesentium, consectetur ullam fuga corporis cum ea cumque! Officiis, ducimus a!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis excepturi natus illum vel qui corporis fugit ab recusandae culpa? Vero est velit quidem, repellat iusto aliquid delectus quis aliquam doloremque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ad odio voluptatum fugit. Assumenda neque magni repellendus qui? Possimus quae recusandae quis blanditiis praesentium! Dolore est quibusdam autem voluptates sit?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, fugit. Quas at fugit molestiae, cum, laboriosam ipsam laudantium perferendis, temporibus dolorem similique non eaque! Nemo facilis illum tempora dicta ipsa!</p>
+
+        </main>
+    </section>
+</body>
+</html>
