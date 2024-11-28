@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width:200px;
+            padding:20px;
+            border:1px solid gray;
+            box-shadow:2px 2px 2px gray;
+            margin:20px;
+        }
+        .card:target{
+            background-color:black;
+            color:white;
+            border-radius: 50px;
+        }
+        main{
+            display: flex;
+            margin-top:50px;
+        }
+        nav span{
+            font-family: arial;
+            font-size: 20px;
+            margin-right: 50px; 
+        }
+        nav{
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span><a href="#html">HTML</a></span>
+        <span><a href="#css">CSS</a></span>
+        <span><a href="#javascript">Javascript</a></span>
+    </nav>
+    <main>
+        <div class="card" id="html">
+            <h1>HTML</h1>
+            <ul>
+                <li>Normal Elements</li>
+                <li>Void Elements</li>
+                <li>RC Data</li>
+                <li>Raw Text</li>
+            </ul>
+        </div>
+        <div class="card" id="css">
+            <h1>CSS</h1>
+            <ul>
+                <li>Selectors</li>
+                <li>Inheritance</li>
+                <li>Units</li>
+                <li>Transform</li>
+            </ul>
+        </div>
+        <div class="card" id="javascript">
+            <h1>Javascript</h1>
+            <ul>
+                <li>Veriables</li>
+                <li>Data Types</li>
+                <li>Operators</li>
+                <li>statments</li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
